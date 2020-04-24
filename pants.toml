@@ -1,0 +1,14 @@
+[GLOBAL]
+v2=true
+v1=false
+v2_ui=true
+pants_version="1.27.0rc0"
+
+# no v1 packages
+backend_packages = []
+
+# v2 backends
+backend_packages2 = ['pants.backend.python']
+
+# v2 plugins
+plugins2 = []
